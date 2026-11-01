@@ -1,0 +1,58 @@
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+venv/
+.venv/
+env/
+ENV/
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Python testing
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# Frontend dependencies
+node_modules/
+frontend/node_modules/
+
+# Build files
+dist/
+frontend/dist/
+dist-ssr/
+
+# IDE and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Local databases
+*.db
+*.sqlite
+*.sqlite3
+
+# ZIP files
+*.zip
+
+# Backup folders
+app-recovery/
+f2/
+
+# Backup files
+*.backup
+*.bak
+*.damaged
+
+# Exclude unwanted project files
+backend/app/ai/router_backup.py
+frontend/Promise.reject(error)*
